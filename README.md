@@ -79,9 +79,10 @@ Uses the **Fourier Transform** to break down any shape into a combination of spi
 ## Inspiration
 
 This project was inspired by:
-- [Mathologer - Epicycles, complex Fourier series and Homer Simpson's orbit](https://www.youtube.com/watch?v=qS4H6PEcCCA)
-- [Mathologer - Euler's and Cauchy's pulley](https://www.youtube.com/watch?v=QVuU2YCwHjw)
-- [Mathematica Stack Exchange - Drawing Homer with epicycloids](https://mathematica.stackexchange.com/questions/171755/how-can-i-draw-a-homer-with-epicycloids)
+- [Epicycles, complex Fourier series and Homer Simpson's orbit - Mathologer](https://www.youtube.com/watch?v=qS4H6PEcCCA)
+- [Ptolemy and Homer (Simpson)](https://www.youtube.com/watch?v=QVuU2YCwHjw)
+- [Fourier Analysis For The Rest Of Us - GoldPlatedGoof](https://www.youtube.com/watch?v=2hfoX51f6sg)
+- [How can I draw a Homer with epicycloids? - Mathematica Stack Exchange](https://mathematica.stackexchange.com/questions/171755/how-can-i-draw-a-homer-with-epicycloids)
 
 Built with [Manim Community](https://www.manim.community/)
 
