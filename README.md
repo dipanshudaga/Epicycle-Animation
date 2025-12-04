@@ -51,20 +51,6 @@ Or edit `INPUT_SVG` in `epicycles.py` (line 18).
 
 The output video will be saved in `media/output.mp4`.
 
-## Creating SVG Files
-
-Use free tools like [Inkscape](https://inkscape.org/) or [Boxy SVG](https://boxy-svg.com/).
-
-**Tips:**
-- Use simple line drawings
-- Single continuous paths work best
-- Keep it under 1000-2000 points for reasonable render times
-
-**Converting shapes to paths in Inkscape:**
-1. Select all (Ctrl+A)
-2. Path → Object to Path
-3. Save as "Plain SVG"
-
 ## Customization
 
 Edit the `CONFIG` dictionary in `epicycles.py`:
@@ -90,11 +76,16 @@ Uses the **Fourier Transform** to break down any shape into a combination of spi
 3. Each circle has a specific size and rotation speed
 4. When stacked together, they draw your shape!
 
-Learn more: [3Blue1Brown's Fourier Series video](https://www.youtube.com/watch?v=r6sGWTCMz2k)
+## Inspiration
 
-## Credits
+This project was inspired by:
+- [Mathologer - Epicycles, complex Fourier series and Homer Simpson's orbit](https://www.youtube.com/watch?v=qS4H6PEcCCA)
+- [3Blue1Brown - But what is a Fourier series?](https://www.youtube.com/watch?v=r6sGWTCMz2k)
+- [Mathologer - Euler's and Cauchy's pulley](https://www.youtube.com/watch?v=QVuU2YCwHjw)
+- [3Blue1Brown - Winding around circles](https://www.youtube.com/watch?v=2hfoX51f6sg)
+- [Mathematica Stack Exchange - Drawing Homer with epicycloids](https://mathematica.stackexchange.com/questions/171755/how-can-i-draw-a-homer-with-epicycloids)
 
-Inspired by [3Blue1Brown](https://www.youtube.com/watch?v=r6sGWTCMz2k) and built with [Manim Community](https://www.manim.community/)
+Built with [Manim Community](https://www.manim.community/)
 
 ## License
 
