@@ -33,10 +33,10 @@ media/images/
 media/texts/
 media/Tex/
 
-# Keep the main output directory but ignore videos
-media/*.mp4
+# Keep output.mp4 but ignore other videos
 media/*.mov
 media/*.avi
+!media/output.mp4
 
 # Jupyter
 .ipynb_checkpoints/
