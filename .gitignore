@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Manim output
+media/videos/
+media/images/
+media/texts/
+media/Tex/
+
+# Keep the main output directory but ignore videos
+media/*.mp4
+media/*.mov
+media/*.avi
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Project specific
+*.svg.bak
+temp/
+test_output/
