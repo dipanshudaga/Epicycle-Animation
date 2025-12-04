@@ -344,9 +344,10 @@ def main():
     shutil.move(manim_output, OUTPUT_VIDEO)
 
     # Clean up Manim's intermediate files
-    media_videos_dir = os.path.join("media", "videos")
-    if os.path.exists(media_videos_dir):
-        shutil.rmtree(media_videos_dir)
+    for folder in ["videos", "images", "texts", "Tex"]:
+        folder_path = os.path.join("media", folder)
+        if os.path.exists(folder_path):
+            shutil.rmtree(folder_path)
 
     print("\n" + "━" * 60)
     print(f"✓ DONE → {OUTPUT_VIDEO}")
