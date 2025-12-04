@@ -24,8 +24,8 @@ OUTPUT_VIDEO = "media/output.mp4"
 
 CONFIG = {
     # Timing
-    "draw_time": 20,
-    "duration": 40,
+    "draw_time": 5,
+    "duration": 10,
     "fps": 30,
 
     # Quality
@@ -342,7 +342,12 @@ def main():
     manim_output = scene.renderer.file_writer.movie_file_path
     os.makedirs(os.path.dirname(OUTPUT_VIDEO) if os.path.dirname(OUTPUT_VIDEO) else ".", exist_ok=True)
     shutil.move(manim_output, OUTPUT_VIDEO)
-    
+
+    # Clean up Manim's intermediate files
+    media_videos_dir = os.path.join("media", "videos")
+    if os.path.exists(media_videos_dir):
+        shutil.rmtree(media_videos_dir)
+
     print("\n" + "━" * 60)
     print(f"✓ DONE → {OUTPUT_VIDEO}")
     print("━" * 60)
