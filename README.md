@@ -80,7 +80,6 @@ Uses the **Fourier Transform** to break down any shape into a combination of spi
 
 This project was inspired by:
 - [Mathologer - Epicycles, complex Fourier series and Homer Simpson's orbit](https://www.youtube.com/watch?v=qS4H6PEcCCA)
-- [3Blue1Brown - But what is a Fourier series?](https://www.youtube.com/watch?v=r6sGWTCMz2k)
 - [Mathologer - Euler's and Cauchy's pulley](https://www.youtube.com/watch?v=QVuU2YCwHjw)
 - [3Blue1Brown - Winding around circles](https://www.youtube.com/watch?v=2hfoX51f6sg)
 - [Mathematica Stack Exchange - Drawing Homer with epicycloids](https://mathematica.stackexchange.com/questions/171755/how-can-i-draw-a-homer-with-epicycloids)
