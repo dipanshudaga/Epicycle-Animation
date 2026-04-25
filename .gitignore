@@ -46,3 +46,4 @@ media/*.avi
 *.svg.bak
 temp/
 test_output/
+.claude/
